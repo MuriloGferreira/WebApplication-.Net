@@ -49,7 +49,5 @@ namespace Repository
             return await _pessoa.OrderBy(x => x.Id).ToListAsync();
         }
 
-
-
     }
 }
